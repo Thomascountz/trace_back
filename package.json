@@ -1,0 +1,27 @@
+{
+  "name": "trace_back",
+  "version": "0.0.1",
+  "description": "Annotate Github repositories with a UI/UX similar to PR comments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [
+    "github",
+    "annotate",
+    "comment",
+    "bookmark",
+    "notes"
+  ],
+  "author": "thomascountz",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chrome": "^0.0.224",
+    "copy-webpack-plugin": "^11.0.0",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.2",
+    "webpack": "^5.76.2",
+    "webpack-cli": "^5.0.1"
+  }
+}
